@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    border: 0px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin: 30px;
+}
+
+.card-body{
+    width: 350px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.list-group{
+    margin: 30px;
+    width: 200px;
+    height: 400px;
+}
+
+.dynamic-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    margin-top: 25px;
+    border-width: 1px;
+}
+
+.element{
+    margin: 10px;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <article class="container">
+        <div class="card">
+            <div class="card-body">
+                <section class="img">
+                    <img src="assets/img/25.png" alt="">
+                </section>
+                <h5 class="card-title">Laptop Gamer AMD</h5>
+                <article class="dynamic-container">
+                    <input type="number" id="cantidad" class="element" min="1">
+                    <select id="selector" class="element">
+                        <option value="black">Negro</option> 
+                        <option value="grey">Gris</option> 
+                        <option value="white">Blanco</option>
+                    </select>
+                    <p>Precio: $ <span class="price element" id="precio" value="1000000">1000000</span></p>
+                </article>   
+                <button class="btn btn-outline-primary" id="boton">Calcular Total</button>
+            </div>
+        </div>
+        <div class="data">
+            <ul class="list-group" id="carrito">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span class="price-cantidad" id="precio-cantidad">Precio: </span>
+                    <span class="badge bg-primary rounded-pill" id="costo">$0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span class="cantidad-Total" >Cantidad: </span>
+                    <span class="badge bg-primary rounded-pill" id="cantidadPC">0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span class="color-select" >Color: </span>
+                    <span class="color" id="color" >negro</span>
+                </li>
+            </ul>
+        </div>
+    </article>
+
+<script src="app.js"></script>
+</body>
+</html>
